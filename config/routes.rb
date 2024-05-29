@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'messages/index'
-  root to: "messages#index"
+  root to: "rooms#index"
   # Defines the root path route ("/")
   # root "articles#index"
   devise_for :users
